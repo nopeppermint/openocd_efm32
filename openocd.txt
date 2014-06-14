@@ -1,0 +1,17 @@
+Useful commands:
+//Reset device
+reset
+
+//halt device
+halt
+
+//actual events
+efm32.cpu eventlist
+
+//reset and prepare for program/debug
+reset halt 
+
+//program bin file to device
+program 01_LCD_Example.bin
+
+program 01_LCD_Example_basic.bin
