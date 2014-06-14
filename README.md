@@ -4,6 +4,10 @@ openocd_efm32
 First steps with openocd and efm32 with STM32F4Discovery and Olimex EM-32G880F128-STK
 
 I tested this with the EM-32G880F128-STK Board and STM32F4Discovery Board and I was able to reset and halt the device and read out some registers.
+I modified the file /openocd-0.8.0/scripts/target/efm32_stlink.cfg
+-delete last line
+#cortex_m reset_config sysresetreq
+because I alway get an error about "cortex_m"
 
 Here you find a nice instruction how to install openocd
 
