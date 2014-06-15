@@ -1,6 +1,10 @@
 openocd_efm32
 =============
 
+Discussion:
+http://community.silabs.com/t5/32-Bit-Discussion/Olimex-dev-board/m-p/123354
+http://www.emblocks.org/forum/viewtopic.php?f=24&t=438
+
 First steps with openocd and efm32 with STM32F4Discovery and Olimex EM-32G880F128-STK
 
 I tested this with the EM-32G880F128-STK Board and STM32F4Discovery Board and I was able to reset and halt the device and read out some registers.
