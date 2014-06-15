@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EmBlocks_project_file>
+	<EmBlocksVersion release="2.00" revision="1" />
+	<FileVersion major="1" minor="0" />
+	<Project>
+		<Option title="01_LCD_Example" />
+		<Option pch_mode="2" />
+		<Option compiler="armgcc_eb" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\Basic_Example_EFM32G880F128-STK_EmBlocks.elf" />
+				<Option object_output="obj\Debug\" />
+				<Option type="0" />
+				<Option compiler="armgcc_eb" />
+				<Option projectDeviceOptionsRelation="0" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O0" />
+					<Add option="-g3" />
+					<Add option="-save-temps=obj" />
+					<Add option="-DEFM32G880F128" />
+					<Add option="-DDEBUG_EFM" />
+					<Add directory="..\..\drivers" />
+					<Add directory="..\..\CMSIS" />
+					<Add directory="..\..\EFM32G\Include" />
+					<Add directory="..\..\emlib\inc" />
+					<Add directory="..\..\01_LCD_Example_EFM32G880F128-STK" />
+				</Compiler>
+				<Assembler>
+					<Add option="-Wa,--gdwarf-2" />
+				</Assembler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\Basic_Example_EFM32G880F128-STK_EmBlocks.elf" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option create_hex="1" />
+				<Option compiler="armgcc_eb" />
+				<Option projectDeviceOptionsRelation="0" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-g2" />
+					<Add option="-fdata-sections" />
+					<Add option="-ffunction-sections" />
+				</Compiler>
+				<Assembler>
+					<Add option="-Wa,--no-warn" />
+				</Assembler>
+				<Linker>
+					<Add option="-Wl,--gc-sections" />
+				</Linker>
+			</Target>
+		</Build>
+		<Device>
+			<Add option="$device=cortex-m3" />
+			<Add option="$stack=0x0100" />
+			<Add option="$heap=0x0000" />
+			<Add option="$lscript=efm32g.ld" />
+		</Device>
+		<Compiler>
+			<Add option="-DEFM32G880F128" />
+			<Add directory=".\Inc" />
+		</Compiler>
+		<Linker>
+			<Add option="-eb_start_files" />
+		</Linker>
+		<Unit filename="..\emlcd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\lcdtest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\EFM32G\Source\GCC\startup_efm32g.S">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\EFM32G\Source\system_efm32g.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\drivers\rtcdrv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\drivers\segmentlcd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\emlib\src\em_assert.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\emlib\src\em_cmu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\emlib\src\em_emu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\emlib\src\em_gpio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\emlib\src\em_lcd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\emlib\src\em_rtc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\emlib\src\em_system.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion>
+				<search_path add="..\..\..\emlib\inc" />
+				<search_path add="..\..\..\EFM32G\Include" />
+			</code_completion>
+			<debugger>
+				<target_debugging_settings target="Debug" active_interface="Generic">
+					<debug_interface interface_id="Generic" ip_address="localhost" ip_port="4444" path="C:\Program Files (x86)\EmBlocks\2.00\share\EmBlocks\debuggers" executable="arm-gdb.exe" description="EFM32G880F128.svd" dont_start_server="false" backoff_time="2000" options="16" active_family="All">
+						<family_options family_id="All">
+							<option opt_id="ID_CMD_BEFORE" opt_value="" />
+							<option opt_id="ID_GDB_SERVER_CL" opt_value="" />
+							<option opt_id="ID_CMD_RESET" opt_value="monitor reset" />
+							<option opt_id="ID_SERVER_TERMINATE" opt_value="1" />
+							<option opt_id="ID_CMD_AFTER" opt_value="target remote localhost:3333&#x0A;monitor poll&#x0A;monitor reset halt&#x0A;program 01_LCD_Example_basic.bin" />
+						</family_options>
+					</debug_interface>
+					<debug_interface interface_id="J-link" ip_address="localhost" ip_port="2331" path="%Software\SEGGER\J-Link:InstallPath%" executable="JLinkGDBServer.exe" description="EFM32G880F128.svd" dont_start_server="false" backoff_time="2000" options="4" active_family="Energy Micro">
+						<family_options family_id="Energy Micro">
+							<option opt_id="ID_DEVICE" opt_value="EFM32G880F128" />
+							<option opt_id="ID_JTAG_SWD" opt_value="swd" />
+							<option opt_id="ID_SPEED" opt_value="1000" />
+							<option opt_id="ID_AUTO_SPEED" opt_value="1" />
+							<option opt_id="ID_RESET_TYPE" opt_value="0" />
+							<option opt_id="ID_VECTOR_START" opt_value="0x00000000" />
+							<option opt_id="ID_LOAD_PROGRAM" opt_value="1" />
+							<option opt_id="ID_FLASH_DOWNLOAD" opt_value="1" />
+							<option opt_id="ID_FLASH_BREAK" opt_value="1" />
+							<option opt_id="ID_RAM_EXEC" opt_value="0" />
+							<option opt_id="ID_NCACHE_CHECK" opt_value="0" />
+							<option opt_id="ID_NCACHE_BASE" opt_value="" />
+							<option opt_id="ID_NCACHE_LENGTH" opt_value="" />
+						</family_options>
+					</debug_interface>
+					<debug_interface interface_id="OpenOCD" ip_address="localhost" ip_port="4444" path="" executable="" description="" dont_start_server="true" backoff_time="100" options="16" active_family="All">
+						<family_options family_id="All">
+							<option opt_id="ID_BOARD_CH" opt_value="" />
+							<option opt_id="ID_INTERFACE_CH" opt_value="stlink-v2" />
+							<option opt_id="ID_TARGET_CH" opt_value="efm32_stlink" />
+							<option opt_id="ID_TEXTCTRL1" opt_value="" />
+							<option opt_id="ID_HW_BKP_LIMIT" opt_value="" />
+							<option opt_id="ID_RESET_CH" opt_value="halt" />
+							<option opt_id="ID_LOAD_PROGRAM" opt_value="0" />
+							<option opt_id="ID_SEMIHOST_CHECK" opt_value="0" />
+							<option opt_id="ID_ADD_COMMANDS" opt_value="" />
+							<option opt_id="ID_ADD_CMNDS" opt_value="reset" />
+						</family_options>
+						<family_options family_id="Generic">
+							<option opt_id="ID_BOARD_CH" opt_value="" />
+							<option opt_id="ID_INTERFACE_CH" opt_value="stlink-v2" />
+							<option opt_id="ID_TARGET_CH" opt_value="efm32_stlink" />
+							<option opt_id="ID_TEXTCTRL1" opt_value="" />
+							<option opt_id="ID_HW_BKP_LIMIT" opt_value="" />
+							<option opt_id="ID_RESET_CH" opt_value="halt" />
+							<option opt_id="ID_LOAD_PROGRAM" opt_value="0" />
+							<option opt_id="ID_SEMIHOST_CHECK" opt_value="0" />
+							<option opt_id="ID_ADD_COMMANDS" opt_value="" />
+							<option opt_id="ID_ADD_CMNDS" opt_value="reset" />
+						</family_options>
+					</debug_interface>
+					<debug_interface interface_id="OpenOCD_efm32" ip_address="localhost" ip_port="4444" path="" executable="" description="" dont_start_server="true" backoff_time="" options="0" active_family="All">
+						<family_options family_id="All" />
+					</debug_interface>
+					<debug_interface interface_id="ST-link" ip_address="" ip_port="" path="" executable="" description="" dont_start_server="false" backoff_time="" options="0" active_family="" />
+				</target_debugging_settings>
+				<target_debugging_settings target="Release" active_interface="J-link">
+					<debug_interface interface_id="Generic" ip_address="" ip_port="" path="" executable="" description="" dont_start_server="false" backoff_time="" options="0" active_family="" />
+					<debug_interface interface_id="J-link" ip_address="localhost" ip_port="2331" path="%Software\SEGGER\J-Link:InstallPath%" executable="JLinkGDBServer.exe" description="" dont_start_server="false" backoff_time="2000" options="0" active_family="Energy Micro">
+						<family_options family_id="Energy Micro">
+							<option opt_id="ID_DEVICE" opt_value="EFM32G880F128" />
+							<option opt_id="ID_JTAG_SWD" opt_value="jtag" />
+							<option opt_id="ID_SPEED" opt_value="1000" />
+							<option opt_id="ID_AUTO_SPEED" opt_value="1" />
+							<option opt_id="ID_RESET_TYPE" opt_value="0" />
+							<option opt_id="ID_VECTOR_START" opt_value="0x00000000" />
+							<option opt_id="ID_LOAD_PROGRAM" opt_value="1" />
+							<option opt_id="ID_FLASH_DOWNLOAD" opt_value="1" />
+							<option opt_id="ID_FLASH_BREAK" opt_value="1" />
+							<option opt_id="ID_RAM_EXEC" opt_value="0" />
+							<option opt_id="ID_NCACHE_CHECK" opt_value="0" />
+							<option opt_id="ID_NCACHE_BASE" opt_value="" />
+							<option opt_id="ID_NCACHE_LENGTH" opt_value="" />
+						</family_options>
+					</debug_interface>
+				</target_debugging_settings>
+			</debugger>
+			<envvars />
+		</Extensions>
+	</Project>
+</EmBlocks_project_file>

@@ -1,0 +1,28 @@
+libusb-1.0 drivers are required for:
+- ST-LINK
+- J-Link
+- FTx232 adapters
+
+You can install libusb-1.0 (WinUSB) drivers using zadig software from this link:
+http://zadig.akeo.ie/
+
+Installation procedure is as easy as:
+1. Plug in your interface
+2. Start zadig.exe
+	a. you may be asked by UAC to allow this application to change system settings - click Yes
+3. If you device is visible in drop-down list go to step 5
+4. Check Options > List All Devices
+5. Select your device in drop-down list
+6. From the right (active) selector choose WinUSB (...) driver
+7. Click Install Driver or Replace Driver below
+	a. you may be asked by OS to accept driver installation - click Yes
+8. Click Close in the message box that will appear informing you about success
+
+That's all!
+
+You can also use zadig to install libusb-win32 drivers.
+_______________
+
+http://www.freddiechopin.info/
+
+document version: 140330
