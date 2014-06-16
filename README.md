@@ -7,42 +7,66 @@ http://www.emblocks.org/forum/viewtopic.php?f=24&t=438
 
 First steps with openocd and efm32 with STM32F4Discovery and Olimex EM-32G880F128-STK
 
-I tested this with the EM-32G880F128-STK Board and STM32F4Discovery Board and I was able to reset and halt the device and read out some registers.
+You find an example with Emblocks or you could flash your device in a terminal.
+_______________________________________________________
+*Bug in openocd-0.8.0
+
+I tested this with the EM-32G880F128-STK Board and STM32F4Discovery Board.
 I modified the file /openocd-0.8.0/scripts/target/efm32_stlink.cfg
 -delete last line
-#cortex_m reset_config sysresetreq
+cortex_m reset_config sysresetreq
 because I alway get an error about "cortex_m"
-
-Here you find a nice instruction how to install openocd
-
-http://gnuarmeclipse.livius.net/blog/openocd-install/
-
-To connect with the ST-LINK/V2 and the EFM32 open openocd in a terminal with the following command:
+_______________________________________________________
+*To connect with the ST-LINK/V2 and the EFM32 
+open openocd in a terminal with the following command:
 
 Linux:
-
 "openocd -f interface/stlink-v2.cfg -f target/efm32_stlink.cfg"
 
 Windows x64 (in directory openocd-0.8.8/bin-x64)
-
 "openocd-x64-0.8.0.exe -f interface/stlink-v2.cfg -f target/efm32_stlink.cfg"
 
 Windows (in directory openocd-0.8.8/bin)
-
-"openocd-x64-0.8.0.exe -f interface/stlink-v2.cfg -f target/efm32_stlink.cfg"
-
+"openocd-0.8.0.exe -f interface/stlink-v2.cfg -f target/efm32_stlink.cfg"
+_______________________________________________________
+*To erase and flash your device:
 Linux:
+open a second terminal
 
-open a second Terminal
-
-"telnet localhost 4444"
+"telnet localhost 4444" 
+"reset halt"
+"flash write_image erase ../../bin/Debug/Basic_Example_EFM32G880F128-STK_EmBlocks.elf"
+"reset"
+now your device should run
 
 Windows:
+the same, but you have to do this with putty (insted of a second terminal)
+_______________________________________________________
+*Useful commands:
 
-the same, but you have to do this with putty for example
+//Reset device
+reset
 
+//halt device
+halt
 
-Useful Links:
+//actual events
+efm32.cpu eventlist
+
+//reset and halt device
+reset halt 
+
+//list all availlable flash (device must be in halt state)
+flash list
+flash probe 0
+
+//erase sectors 0-255 (device must be in halt state)
+flash erase_sector 0 0 255
+
+//check if bank 0 is erased (device must be in halt state)
+flash erase_check 0
+_______________________________________________________________________________________
+*Useful Links:
 
 EFM32 Openocd:
 http://sourceforge.net/p/openocd/mailman/openocd-user/thread/5330AF5C.2000005@op.pl/
@@ -53,6 +77,3 @@ http://www.triplespark.net/elec/pdev/arm/stm32.html
 
 Openocd install:
 http://gnuarmeclipse.livius.net/blog/openocd-install/
-
-Working example with Olimex Board (J-link, Colinkex):
-https://github.com/nopeppermint/Olimex_EFM32_CoLinkEx_Example/tree/master/01_LCD_Example_EM-32G880F128-STK

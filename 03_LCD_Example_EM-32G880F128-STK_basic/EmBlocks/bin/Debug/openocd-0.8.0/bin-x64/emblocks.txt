@@ -1,7 +1,0 @@
-Before debugging I have to open a terminal and type
-"d:"
-
-"cd openocd_efm32\03_LCD_Example_EM-32G880F128-STK_basic\EmBlocks\bin\Debug\openocd-0.8.0\bin-x64"
-
-"openocd-x64-0.8.0.exe -f interface/stlink-v2.cfg -f target/efm32_stlink.cfg"
-

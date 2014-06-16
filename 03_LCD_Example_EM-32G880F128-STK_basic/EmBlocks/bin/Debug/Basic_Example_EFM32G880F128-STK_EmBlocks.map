@@ -74,6 +74,7 @@ Discarded input sections
  .group         0x00000000        0x8 obj\debug\emlcd.o
  .group         0x00000000        0x8 obj\debug\emlcd.o
  .group         0x00000000        0x8 obj\debug\emlcd.o
+ .group         0x00000000        0x8 obj\debug\emlcd.o
  .group         0x00000000        0x8 obj\debug\lcdtest.o
  .group         0x00000000        0x8 obj\debug\lcdtest.o
  .group         0x00000000        0x8 obj\debug\lcdtest.o
@@ -130,6 +131,8 @@ Discarded input sections
  .group         0x00000000        0x8 obj\debug\lcdtest.o
  .group         0x00000000        0x8 obj\debug\lcdtest.o
  .group         0x00000000        0x8 obj\debug\lcdtest.o
+ .group         0x00000000        0x8 obj\debug\lcdtest.o
+ .debug_macro   0x00000000      0x80e obj\debug\lcdtest.o
  .debug_macro   0x00000000       0x3a obj\debug\lcdtest.o
  .debug_macro   0x00000000       0x10 obj\debug\lcdtest.o
  .debug_macro   0x00000000       0x2e obj\debug\lcdtest.o
@@ -213,6 +216,8 @@ Discarded input sections
  .group         0x00000000        0x8 obj\debug\system_efm32g.o
  .group         0x00000000        0x8 obj\debug\system_efm32g.o
  .group         0x00000000        0x8 obj\debug\system_efm32g.o
+ .group         0x00000000        0x8 obj\debug\system_efm32g.o
+ .debug_macro   0x00000000      0x80e obj\debug\system_efm32g.o
  .debug_macro   0x00000000       0x3a obj\debug\system_efm32g.o
  .debug_macro   0x00000000       0x10 obj\debug\system_efm32g.o
  .debug_macro   0x00000000       0x2e obj\debug\system_efm32g.o
@@ -299,6 +304,8 @@ Discarded input sections
  .group         0x00000000        0x8 obj\debug\rtcdrv.o
  .group         0x00000000        0x8 obj\debug\rtcdrv.o
  .group         0x00000000        0x8 obj\debug\rtcdrv.o
+ .group         0x00000000        0x8 obj\debug\rtcdrv.o
+ .debug_macro   0x00000000      0x80e obj\debug\rtcdrv.o
  .debug_macro   0x00000000      0x2ab obj\debug\rtcdrv.o
  .debug_macro   0x00000000       0x3a obj\debug\rtcdrv.o
  .debug_macro   0x00000000       0x3a obj\debug\rtcdrv.o
@@ -408,6 +415,8 @@ Discarded input sections
  .group         0x00000000        0x8 obj\debug\segmentlcd.o
  .group         0x00000000        0x8 obj\debug\segmentlcd.o
  .group         0x00000000        0x8 obj\debug\segmentlcd.o
+ .group         0x00000000        0x8 obj\debug\segmentlcd.o
+ .debug_macro   0x00000000      0x80e obj\debug\segmentlcd.o
  .debug_macro   0x00000000       0x3a obj\debug\segmentlcd.o
  .debug_macro   0x00000000       0x10 obj\debug\segmentlcd.o
  .debug_macro   0x00000000       0x2e obj\debug\segmentlcd.o
@@ -465,6 +474,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x11 obj\debug\segmentlcd.o
  .debug_macro   0x00000000      0x18f obj\debug\segmentlcd.o
  .group         0x00000000        0x8 obj\debug\em_assert.o
+ .group         0x00000000        0x8 obj\debug\em_assert.o
+ .debug_macro   0x00000000      0x80e obj\debug\em_assert.o
  .debug_macro   0x00000000       0x10 obj\debug\em_assert.o
  .group         0x00000000        0x8 obj\debug\em_cmu.o
  .group         0x00000000        0x8 obj\debug\em_cmu.o
@@ -510,6 +521,8 @@ Discarded input sections
  .group         0x00000000        0x8 obj\debug\em_cmu.o
  .group         0x00000000        0x8 obj\debug\em_cmu.o
  .group         0x00000000        0x8 obj\debug\em_cmu.o
+ .group         0x00000000        0x8 obj\debug\em_cmu.o
+ .debug_macro   0x00000000      0x80e obj\debug\em_cmu.o
  .debug_macro   0x00000000      0x2ab obj\debug\em_cmu.o
  .debug_macro   0x00000000       0x3a obj\debug\em_cmu.o
  .debug_macro   0x00000000       0x3a obj\debug\em_cmu.o
@@ -598,6 +611,8 @@ Discarded input sections
  .group         0x00000000        0x8 obj\debug\em_emu.o
  .group         0x00000000        0x8 obj\debug\em_emu.o
  .group         0x00000000        0x8 obj\debug\em_emu.o
+ .group         0x00000000        0x8 obj\debug\em_emu.o
+ .debug_macro   0x00000000      0x80e obj\debug\em_emu.o
  .debug_macro   0x00000000       0x22 obj\debug\em_emu.o
  .debug_macro   0x00000000      0x2ab obj\debug\em_emu.o
  .debug_macro   0x00000000       0x3a obj\debug\em_emu.o
@@ -686,6 +701,8 @@ Discarded input sections
  .group         0x00000000        0x8 obj\debug\em_gpio.o
  .group         0x00000000        0x8 obj\debug\em_gpio.o
  .group         0x00000000        0x8 obj\debug\em_gpio.o
+ .group         0x00000000        0x8 obj\debug\em_gpio.o
+ .debug_macro   0x00000000      0x80e obj\debug\em_gpio.o
  .debug_macro   0x00000000       0x22 obj\debug\em_gpio.o
  .debug_macro   0x00000000      0x2ab obj\debug\em_gpio.o
  .debug_macro   0x00000000       0x3a obj\debug\em_gpio.o
@@ -773,6 +790,8 @@ Discarded input sections
  .group         0x00000000        0x8 obj\debug\em_lcd.o
  .group         0x00000000        0x8 obj\debug\em_lcd.o
  .group         0x00000000        0x8 obj\debug\em_lcd.o
+ .group         0x00000000        0x8 obj\debug\em_lcd.o
+ .debug_macro   0x00000000      0x80e obj\debug\em_lcd.o
  .debug_macro   0x00000000      0x2ab obj\debug\em_lcd.o
  .debug_macro   0x00000000       0x3a obj\debug\em_lcd.o
  .debug_macro   0x00000000       0x3a obj\debug\em_lcd.o
@@ -859,6 +878,8 @@ Discarded input sections
  .group         0x00000000        0x8 obj\debug\em_rtc.o
  .group         0x00000000        0x8 obj\debug\em_rtc.o
  .group         0x00000000        0x8 obj\debug\em_rtc.o
+ .group         0x00000000        0x8 obj\debug\em_rtc.o
+ .debug_macro   0x00000000      0x80e obj\debug\em_rtc.o
  .debug_macro   0x00000000       0x22 obj\debug\em_rtc.o
  .debug_macro   0x00000000      0x2ab obj\debug\em_rtc.o
  .debug_macro   0x00000000       0x3a obj\debug\em_rtc.o
@@ -945,6 +966,8 @@ Discarded input sections
  .group         0x00000000        0x8 obj\debug\em_system.o
  .group         0x00000000        0x8 obj\debug\em_system.o
  .group         0x00000000        0x8 obj\debug\em_system.o
+ .group         0x00000000        0x8 obj\debug\em_system.o
+ .debug_macro   0x00000000      0x80e obj\debug\em_system.o
  .debug_macro   0x00000000      0x2ab obj\debug\em_system.o
  .debug_macro   0x00000000       0x3a obj\debug\em_system.o
  .debug_macro   0x00000000       0x3a obj\debug\em_system.o
@@ -1004,7 +1027,7 @@ LOAD c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-non
                 0x00000000                __HEAP_SIZE = 0x0
                 0x00000100                __STACK_SIZE = 0x100
 
-.text           0x00000000     0x48e0
+.text           0x00000000     0x4928
  *(.isr_vector)
  .isr_vector    0x00000000      0x100 obj\debug\startup_efm32g.o
                 0x00000000                __isr_vector
@@ -1017,7 +1040,7 @@ LOAD c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-non
                 0x00000154                _mainCRTStartup
  .text          0x000001c4      0x204 obj\debug\emlcd.o
                 0x000003ac                main
- .text          0x000003c8      0x6f8 obj\debug\lcdtest.o
+ .text          0x000003c8      0x72c obj\debug\lcdtest.o
                 0x00000480                GPIO_ODD_IRQHandler
                 0x000004d0                GPIO_EVEN_IRQHandler
                 0x00000500                GPIO_IRQInit
@@ -1028,178 +1051,178 @@ LOAD c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-non
                 0x00000630                EM4Sleep
                 0x0000063c                ScrollText
                 0x000006a8                Test
- .text          0x00000ac0       0x84 obj\debug\startup_efm32g.o
-                0x00000ac0                Reset_Handler
-                0x00000af4                Default_Handler
-                0x00000af6                NMI_Handler
-                0x00000af8                HardFault_Handler
-                0x00000afa                MemManage_Handler
-                0x00000afc                BusFault_Handler
-                0x00000afe                UsageFault_Handler
-                0x00000b00                SVC_Handler
-                0x00000b02                DebugMon_Handler
-                0x00000b04                PendSV_Handler
-                0x00000b06                SysTick_Handler
-                0x00000b08                DMA_IRQHandler
-                0x00000b0c                TIMER0_IRQHandler
-                0x00000b0e                USART0_RX_IRQHandler
-                0x00000b10                USART0_TX_IRQHandler
-                0x00000b12                ACMP0_IRQHandler
-                0x00000b14                ADC0_IRQHandler
-                0x00000b16                DAC0_IRQHandler
-                0x00000b18                I2C0_IRQHandler
-                0x00000b1c                TIMER1_IRQHandler
-                0x00000b1e                TIMER2_IRQHandler
-                0x00000b20                USART1_RX_IRQHandler
-                0x00000b22                USART1_TX_IRQHandler
-                0x00000b24                USART2_RX_IRQHandler
-                0x00000b26                USART2_TX_IRQHandler
-                0x00000b28                UART0_RX_IRQHandler
-                0x00000b2a                UART0_TX_IRQHandler
-                0x00000b2c                LEUART0_IRQHandler
-                0x00000b2e                LEUART1_IRQHandler
-                0x00000b30                LETIMER0_IRQHandler
-                0x00000b32                PCNT0_IRQHandler
-                0x00000b34                PCNT1_IRQHandler
-                0x00000b36                PCNT2_IRQHandler
-                0x00000b3a                CMU_IRQHandler
-                0x00000b3c                VCMP_IRQHandler
-                0x00000b3e                LCD_IRQHandler
-                0x00000b40                MSC_IRQHandler
-                0x00000b42                AES_IRQHandler
- .text          0x00000b44      0x22c obj\debug\system_efm32g.o
-                0x00000b60                SystemCoreClockGet
-                0x00000b9c                SystemHFClockGet
-                0x00000cac                SystemHFXOClockGet
-                0x00000cc4                SystemHFXOClockSet
-                0x00000cf8                SystemInit
-                0x00000d04                SystemLFRCOClockGet
-                0x00000d14                SystemULFRCOClockGet
-                0x00000d24                SystemLFXOClockGet
-                0x00000d3c                SystemLFXOClockSet
- .text          0x00000d70      0x2c8 obj\debug\rtcdrv.o
-                0x00000e78                RTCDRV_Setup
-                0x00000f24                RTCDRV_Delay
-                0x00000f7c                RTC_IRQHandler
-                0x00000fb4                RTCDRV_Trigger
- .text          0x00001038      0xbc4 obj\debug\segmentlcd.o
-                0x00001114                SegmentLCD_AllOff
-                0x0000119c                SegmentLCD_AllOn
-                0x00001224                SegmentLCD_AlphaNumberOff
-                0x000012bc                SegmentLCD_Arrows
-                0x00001320                SegmentLCD_Battery
-                0x000013ac                SegmentLCD_Disable
-                0x000013e0                SegmentLCD_Init
-                0x00001494                SegmentLCD_LowerHex
-                0x0000153c                SegmentLCD_LowerNumber
-                0x0000162c                SegmentLCD_Number
-                0x0000179c                SegmentLCD_NumberOff
-                0x000017e4                SegmentLCD_Symbol
-                0x00001a08                SegmentLCD_UnsignedHex
-                0x00001af8                SegmentLCD_Write
- .text          0x00001bfc        0xc obj\debug\em_assert.o
-                0x00001bfc                assertEFM
- .text          0x00001c08     0x136c obj\debug\em_cmu.o
-                0x00001ef0                CMU_Calibrate
-                0x00001fe4                CMU_ClockDivGet
-                0x00002184                CMU_ClockDivSet
-                0x00002448                CMU_ClockEnable
-                0x00002520                CMU_ClockFreqGet
-                0x0000271c                CMU_ClockSelectGet
-                0x0000283c                CMU_ClockSelectSet
-                0x000029fc                CMU_FreezeEnable
-                0x00002a44                CMU_HFRCOBandGet
-                0x00002a64                CMU_HFRCOBandSet
-                0x00002b74                CMU_HFRCOStartupDelayGet
-                0x00002b94                CMU_HFRCOStartupDelaySet
-                0x00002be4                CMU_LCDClkFDIVGet
-                0x00002c00                CMU_LCDClkFDIVSet
-                0x00002c60                CMU_OscillatorEnable
-                0x00002d50                CMU_OscillatorTuningGet
-                0x00002dc0                CMU_OscillatorTuningSet
-                0x00002ea4                CMU_PCNTClockExternalGet
-                0x00002f1c                CMU_PCNTClockExternalSet
- .text          0x00002f74      0x2e8 obj\debug\em_emu.o
-                0x000030b0                EMU_EnterEM2
-                0x00003114                EMU_EnterEM3
-                0x000031a8                EMU_EnterEM4
-                0x00003208                EMU_MemPwrDown
-                0x0000323c                EMU_UpdateOscConfig
- .text          0x0000325c      0x3b8 obj\debug\em_gpio.o
-                0x0000328c                GPIO_DbgLocationSet
-                0x000032d8                GPIO_DriveModeSet
-                0x00003348                GPIO_IntConfig
-                0x0000344c                GPIO_PinModeSet
- .text          0x00003614      0x7ac obj\debug\em_lcd.o
-                0x00003728                LCD_Init
-                0x000037bc                LCD_VLCDSelect
-                0x00003808                LCD_UpdateCtrl
-                0x00003838                LCD_FrameCountInit
-                0x000038b8                LCD_AnimInit
-                0x0000394c                LCD_SegmentRangeEnable
-                0x000039a0                LCD_SegmentSet
-                0x00003b10                LCD_SegmentSetLow
-                0x00003c34                LCD_SegmentSetHigh
-                0x00003d48                LCD_ContrastSet
-                0x00003d90                LCD_VBoostSet
- .text          0x00003dc0      0x284 obj\debug\em_rtc.o
-                0x00003e2c                RTC_CompareGet
-                0x00003e88                RTC_CompareSet
-                0x00003ef8                RTC_Enable
-                0x00003f28                RTC_FreezeEnable
-                0x00003f70                RTC_Init
-                0x00003fcc                RTC_Reset
-                0x0000402c                RTC_CounterReset
- .text          0x00004044       0xdc obj\debug\em_system.o
-                0x00004044                SYSTEM_ChipRevisionGet
-                0x000040b4                SYSTEM_GetCalibrationValue
- .text          0x00004120        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__atexit.o)
+ .text          0x00000af4       0x84 obj\debug\startup_efm32g.o
+                0x00000af4                Reset_Handler
+                0x00000b28                Default_Handler
+                0x00000b2a                NMI_Handler
+                0x00000b2c                HardFault_Handler
+                0x00000b2e                MemManage_Handler
+                0x00000b30                BusFault_Handler
+                0x00000b32                UsageFault_Handler
+                0x00000b34                SVC_Handler
+                0x00000b36                DebugMon_Handler
+                0x00000b38                PendSV_Handler
+                0x00000b3a                SysTick_Handler
+                0x00000b3c                DMA_IRQHandler
+                0x00000b40                TIMER0_IRQHandler
+                0x00000b42                USART0_RX_IRQHandler
+                0x00000b44                USART0_TX_IRQHandler
+                0x00000b46                ACMP0_IRQHandler
+                0x00000b48                ADC0_IRQHandler
+                0x00000b4a                DAC0_IRQHandler
+                0x00000b4c                I2C0_IRQHandler
+                0x00000b50                TIMER1_IRQHandler
+                0x00000b52                TIMER2_IRQHandler
+                0x00000b54                USART1_RX_IRQHandler
+                0x00000b56                USART1_TX_IRQHandler
+                0x00000b58                USART2_RX_IRQHandler
+                0x00000b5a                USART2_TX_IRQHandler
+                0x00000b5c                UART0_RX_IRQHandler
+                0x00000b5e                UART0_TX_IRQHandler
+                0x00000b60                LEUART0_IRQHandler
+                0x00000b62                LEUART1_IRQHandler
+                0x00000b64                LETIMER0_IRQHandler
+                0x00000b66                PCNT0_IRQHandler
+                0x00000b68                PCNT1_IRQHandler
+                0x00000b6a                PCNT2_IRQHandler
+                0x00000b6e                CMU_IRQHandler
+                0x00000b70                VCMP_IRQHandler
+                0x00000b72                LCD_IRQHandler
+                0x00000b74                MSC_IRQHandler
+                0x00000b76                AES_IRQHandler
+ .text          0x00000b78      0x22c obj\debug\system_efm32g.o
+                0x00000b94                SystemCoreClockGet
+                0x00000bd0                SystemHFClockGet
+                0x00000ce0                SystemHFXOClockGet
+                0x00000cf8                SystemHFXOClockSet
+                0x00000d2c                SystemInit
+                0x00000d38                SystemLFRCOClockGet
+                0x00000d48                SystemULFRCOClockGet
+                0x00000d58                SystemLFXOClockGet
+                0x00000d70                SystemLFXOClockSet
+ .text          0x00000da4      0x2c8 obj\debug\rtcdrv.o
+                0x00000eac                RTCDRV_Setup
+                0x00000f58                RTCDRV_Delay
+                0x00000fb0                RTC_IRQHandler
+                0x00000fe8                RTCDRV_Trigger
+ .text          0x0000106c      0xbc4 obj\debug\segmentlcd.o
+                0x00001148                SegmentLCD_AllOff
+                0x000011d0                SegmentLCD_AllOn
+                0x00001258                SegmentLCD_AlphaNumberOff
+                0x000012f0                SegmentLCD_Arrows
+                0x00001354                SegmentLCD_Battery
+                0x000013e0                SegmentLCD_Disable
+                0x00001414                SegmentLCD_Init
+                0x000014c8                SegmentLCD_LowerHex
+                0x00001570                SegmentLCD_LowerNumber
+                0x00001660                SegmentLCD_Number
+                0x000017d0                SegmentLCD_NumberOff
+                0x00001818                SegmentLCD_Symbol
+                0x00001a3c                SegmentLCD_UnsignedHex
+                0x00001b2c                SegmentLCD_Write
+ .text          0x00001c30        0xc obj\debug\em_assert.o
+                0x00001c30                assertEFM
+ .text          0x00001c3c     0x136c obj\debug\em_cmu.o
+                0x00001f24                CMU_Calibrate
+                0x00002018                CMU_ClockDivGet
+                0x000021b8                CMU_ClockDivSet
+                0x0000247c                CMU_ClockEnable
+                0x00002554                CMU_ClockFreqGet
+                0x00002750                CMU_ClockSelectGet
+                0x00002870                CMU_ClockSelectSet
+                0x00002a30                CMU_FreezeEnable
+                0x00002a78                CMU_HFRCOBandGet
+                0x00002a98                CMU_HFRCOBandSet
+                0x00002ba8                CMU_HFRCOStartupDelayGet
+                0x00002bc8                CMU_HFRCOStartupDelaySet
+                0x00002c18                CMU_LCDClkFDIVGet
+                0x00002c34                CMU_LCDClkFDIVSet
+                0x00002c94                CMU_OscillatorEnable
+                0x00002d84                CMU_OscillatorTuningGet
+                0x00002df4                CMU_OscillatorTuningSet
+                0x00002ed8                CMU_PCNTClockExternalGet
+                0x00002f50                CMU_PCNTClockExternalSet
+ .text          0x00002fa8      0x2e8 obj\debug\em_emu.o
+                0x000030e4                EMU_EnterEM2
+                0x00003148                EMU_EnterEM3
+                0x000031dc                EMU_EnterEM4
+                0x0000323c                EMU_MemPwrDown
+                0x00003270                EMU_UpdateOscConfig
+ .text          0x00003290      0x3b8 obj\debug\em_gpio.o
+                0x000032c0                GPIO_DbgLocationSet
+                0x0000330c                GPIO_DriveModeSet
+                0x0000337c                GPIO_IntConfig
+                0x00003480                GPIO_PinModeSet
+ .text          0x00003648      0x7ac obj\debug\em_lcd.o
+                0x0000375c                LCD_Init
+                0x000037f0                LCD_VLCDSelect
+                0x0000383c                LCD_UpdateCtrl
+                0x0000386c                LCD_FrameCountInit
+                0x000038ec                LCD_AnimInit
+                0x00003980                LCD_SegmentRangeEnable
+                0x000039d4                LCD_SegmentSet
+                0x00003b44                LCD_SegmentSetLow
+                0x00003c68                LCD_SegmentSetHigh
+                0x00003d7c                LCD_ContrastSet
+                0x00003dc4                LCD_VBoostSet
+ .text          0x00003df4      0x284 obj\debug\em_rtc.o
+                0x00003e60                RTC_CompareGet
+                0x00003ebc                RTC_CompareSet
+                0x00003f2c                RTC_Enable
+                0x00003f5c                RTC_FreezeEnable
+                0x00003fa4                RTC_Init
+                0x00004000                RTC_Reset
+                0x00004060                RTC_CounterReset
+ .text          0x00004078       0xdc obj\debug\em_system.o
+                0x00004078                SYSTEM_ChipRevisionGet
+                0x000040e8                SYSTEM_GetCalibrationValue
+ .text          0x00004154        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__atexit.o)
  .text.__register_exitproc
-                0x00004120       0xb0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__atexit.o)
-                0x00004120                __register_exitproc
- .text          0x000041d0        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-exit.o)
- .text.exit     0x000041d0       0x20 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-exit.o)
-                0x000041d0                exit
- .text          0x000041f0        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fini.o)
+                0x00004154       0xb0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__atexit.o)
+                0x00004154                __register_exitproc
+ .text          0x00004204        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-exit.o)
+ .text.exit     0x00004204       0x20 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-exit.o)
+                0x00004204                exit
+ .text          0x00004224        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fini.o)
  .text.__libc_fini_array
-                0x000041f0       0x2c c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fini.o)
-                0x000041f0                __libc_fini_array
- .text          0x0000421c        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
- .text          0x0000421c        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-init.o)
+                0x00004224       0x2c c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fini.o)
+                0x00004224                __libc_fini_array
+ .text          0x00004250        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
+ .text          0x00004250        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-init.o)
  .text.__libc_init_array
-                0x0000421c       0x50 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-init.o)
-                0x0000421c                __libc_init_array
- .text          0x0000426c        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-memcpy-stub.o)
- .text.memcpy   0x0000426c       0x94 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-memcpy-stub.o)
-                0x0000426c                memcpy
- .text          0x00004300        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-memset.o)
- .text.memset   0x00004300       0x94 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-memset.o)
-                0x00004300                memset
- .text          0x00004394        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-strlen.o)
- .text.strlen   0x00004394       0x60 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-strlen.o)
-                0x00004394                strlen
- .text          0x000043f4        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__call_atexit.o)
+                0x00004250       0x50 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-init.o)
+                0x00004250                __libc_init_array
+ .text          0x000042a0        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-memcpy-stub.o)
+ .text.memcpy   0x000042a0       0x94 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-memcpy-stub.o)
+                0x000042a0                memcpy
+ .text          0x00004334        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-memset.o)
+ .text.memset   0x00004334       0x94 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-memset.o)
+                0x00004334                memset
+ .text          0x000043c8        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-strlen.o)
+ .text.strlen   0x000043c8       0x60 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-strlen.o)
+                0x000043c8                strlen
+ .text          0x00004428        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__call_atexit.o)
  .text.startup.register_fini
-                0x000043f4       0x14 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__call_atexit.o)
+                0x00004428       0x14 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__call_atexit.o)
  .text.__call_exitprocs
-                0x00004408       0xd8 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__call_atexit.o)
-                0x00004408                __call_exitprocs
- .text          0x000044e0        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-atexit.o)
- .text.atexit   0x000044e0        0xc c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-atexit.o)
-                0x000044e0                atexit
- .text          0x000044ec        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
- .text._exit    0x000044ec        0x4 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
-                0x000044ec                _exit
- .text          0x000044f0        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtend.o
- .text          0x000044f0        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtn.o
+                0x0000443c       0xd8 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-__call_atexit.o)
+                0x0000443c                __call_exitprocs
+ .text          0x00004514        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-atexit.o)
+ .text.atexit   0x00004514        0xc c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-atexit.o)
+                0x00004514                atexit
+ .text          0x00004520        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
+ .text._exit    0x00004520        0x4 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
+                0x00004520                _exit
+ .text          0x00004524        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtend.o
+ .text          0x00004524        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtn.o
  *(.init)
- .init          0x000044f0        0x4 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crti.o
-                0x000044f0                _init
- .init          0x000044f4        0x8 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtn.o
+ .init          0x00004524        0x4 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crti.o
+                0x00004524                _init
+ .init          0x00004528        0x8 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtn.o
  *(.fini)
- .fini          0x000044fc        0x4 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crti.o
-                0x000044fc                _fini
- .fini          0x00004500        0x8 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtn.o
+ .fini          0x00004530        0x4 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crti.o
+                0x00004530                _fini
+ .fini          0x00004534        0x8 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtn.o
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -1211,53 +1234,53 @@ LOAD c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-non
  *(SORT(.dtors.*))
  *(.dtors)
  *(.rodata*)
- .rodata        0x00004508      0x110 obj\debug\lcdtest.o
- .rodata        0x00004618      0x214 obj\debug\segmentlcd.o
- .rodata        0x0000482c       0x1c obj\debug\em_cmu.o
- .rodata        0x00004848       0x1c obj\debug\em_emu.o
- .rodata        0x00004864       0x1c obj\debug\em_gpio.o
- .rodata        0x00004880       0x1c obj\debug\em_lcd.o
- .rodata        0x0000489c       0x1c obj\debug\em_rtc.o
- .rodata        0x000048b8       0x1c obj\debug\em_system.o
+ .rodata        0x0000453c      0x124 obj\debug\lcdtest.o
+ .rodata        0x00004660      0x214 obj\debug\segmentlcd.o
+ .rodata        0x00004874       0x1c obj\debug\em_cmu.o
+ .rodata        0x00004890       0x1c obj\debug\em_emu.o
+ .rodata        0x000048ac       0x1c obj\debug\em_gpio.o
+ .rodata        0x000048c8       0x1c obj\debug\em_lcd.o
+ .rodata        0x000048e4       0x1c obj\debug\em_rtc.o
+ .rodata        0x00004900       0x1c obj\debug\em_system.o
  .rodata.str1.4
-                0x000048d4        0x4 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
+                0x0000491c        0x4 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
  .rodata._global_impure_ptr
-                0x000048d8        0x4 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
-                0x000048d8                _global_impure_ptr
+                0x00004920        0x4 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
+                0x00004920                _global_impure_ptr
  *(.eh_frame*)
- .eh_frame      0x000048dc        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
- .eh_frame      0x000048dc        0x4 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtend.o
+ .eh_frame      0x00004924        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
+ .eh_frame      0x00004924        0x4 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtend.o
 
-.glue_7         0x000048e0        0x0
+.glue_7         0x00004928        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x000048e0        0x0
+.glue_7t        0x00004928        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x000048e0        0x0
+.vfp11_veneer   0x00004928        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x000048e0        0x0
+.v4_bx          0x00004928        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x000048e0        0x0
+.iplt           0x00004928        0x0
  .iplt          0x00000000        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
 
-.ARM.extab      0x000048e0        0x0
+.ARM.extab      0x00004928        0x0
  *(.ARM.extab* .gnu.linkonce.armextab.*)
- .ARM.extab     0x000048e0        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
-                0x000048e0                __exidx_start = .
+ .ARM.extab     0x00004928        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+                0x00004928                __exidx_start = .
 
-.ARM.exidx      0x000048e0        0x8
+.ARM.exidx      0x00004928        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x000048e0        0x8 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
-                0x000048e8                __exidx_end = .
-                0x000048e8                __etext = .
+ .ARM.exidx     0x00004928        0x8 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+                0x00004930                __exidx_end = .
+                0x00004930                __etext = .
 
-.rel.dyn        0x000048e8        0x0
+.rel.dyn        0x00004930        0x0
  .rel.iplt      0x00000000        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
 
-.data           0x20000000      0x448 load address 0x000048e8
+.data           0x20000000      0x448 load address 0x00004930
                 0x20000000                __data_start__ = .
  *(vtable)
  *(.data*)
@@ -1319,14 +1342,14 @@ LOAD c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-non
                 0x20000448                . = ALIGN (0x4)
                 0x20000448                __data_end__ = .
 
-.jcr            0x20000448        0x4 load address 0x00004d30
+.jcr            0x20000448        0x4 load address 0x00004d78
  .jcr           0x20000448        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
  .jcr           0x20000448        0x4 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtend.o
 
-.igot.plt       0x2000044c        0x0 load address 0x00004d34
+.igot.plt       0x2000044c        0x0 load address 0x00004d7c
  .igot.plt      0x00000000        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
 
-.bss            0x2000044c       0x34 load address 0x00004d34
+.bss            0x2000044c       0x34 load address 0x00004d7c
                 0x2000044c                __bss_start__ = .
  *(.bss*)
  .bss           0x2000044c        0x0 c:/program files (x86)/emblocks/2.00/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crti.o
@@ -1479,20 +1502,20 @@ OUTPUT(bin\Debug\Basic_Example_EFM32G880F128-STK_EmBlocks.elf elf32-littlearm)
  .comment       0x00000000       0x4f obj\debug\em_rtc.o
  .comment       0x00000000       0x4f obj\debug\em_system.o
 
-.debug_info     0x00000000     0x5017
+.debug_info     0x00000000     0x5007
  .debug_info    0x00000000      0x163 obj\debug\emlcd.o
  .debug_info    0x00000163      0xb13 obj\debug\lcdtest.o
- .debug_info    0x00000c76       0xac obj\debug\startup_efm32g.o
- .debug_info    0x00000d22      0x53b obj\debug\system_efm32g.o
- .debug_info    0x0000125d      0x763 obj\debug\rtcdrv.o
- .debug_info    0x000019c0      0xef8 obj\debug\segmentlcd.o
- .debug_info    0x000028b8       0x7a obj\debug\em_assert.o
- .debug_info    0x00002932      0xdd8 obj\debug\em_cmu.o
- .debug_info    0x0000370a      0x64a obj\debug\em_emu.o
- .debug_info    0x00003d54      0x489 obj\debug\em_gpio.o
- .debug_info    0x000041dd      0x8a2 obj\debug\em_lcd.o
- .debug_info    0x00004a7f      0x361 obj\debug\em_rtc.o
- .debug_info    0x00004de0      0x237 obj\debug\em_system.o
+ .debug_info    0x00000c76       0x9c obj\debug\startup_efm32g.o
+ .debug_info    0x00000d12      0x53b obj\debug\system_efm32g.o
+ .debug_info    0x0000124d      0x763 obj\debug\rtcdrv.o
+ .debug_info    0x000019b0      0xef8 obj\debug\segmentlcd.o
+ .debug_info    0x000028a8       0x7a obj\debug\em_assert.o
+ .debug_info    0x00002922      0xdd8 obj\debug\em_cmu.o
+ .debug_info    0x000036fa      0x64a obj\debug\em_emu.o
+ .debug_info    0x00003d44      0x489 obj\debug\em_gpio.o
+ .debug_info    0x000041cd      0x8a2 obj\debug\em_lcd.o
+ .debug_info    0x00004a6f      0x361 obj\debug\em_rtc.o
+ .debug_info    0x00004dd0      0x237 obj\debug\em_system.o
 
 .debug_abbrev   0x00000000     0x1208
  .debug_abbrev  0x00000000       0xd0 obj\debug\emlcd.o
@@ -1551,132 +1574,133 @@ OUTPUT(bin\Debug\Basic_Example_EFM32G880F128-STK_EmBlocks.elf elf32-littlearm)
  .debug_aranges
                 0x00000180       0x20 obj\debug\em_system.o
 
-.debug_macro    0x00000000    0x1aee7
- .debug_macro   0x00000000      0xa55 obj\debug\emlcd.o
- .debug_macro   0x00000a55       0x3a obj\debug\emlcd.o
- .debug_macro   0x00000a8f       0x10 obj\debug\emlcd.o
- .debug_macro   0x00000a9f       0x2e obj\debug\emlcd.o
- .debug_macro   0x00000acd       0xa2 obj\debug\emlcd.o
- .debug_macro   0x00000b6f      0x20e obj\debug\emlcd.o
- .debug_macro   0x00000d7d       0x22 obj\debug\emlcd.o
- .debug_macro   0x00000d9f      0x2ab obj\debug\emlcd.o
- .debug_macro   0x0000104a       0x3a obj\debug\emlcd.o
- .debug_macro   0x00001084       0x2d obj\debug\emlcd.o
- .debug_macro   0x000010b1      0xbb1 obj\debug\emlcd.o
- .debug_macro   0x00001c62      0x470 obj\debug\emlcd.o
- .debug_macro   0x000020d2      0x142 obj\debug\emlcd.o
- .debug_macro   0x00002214      0x136 obj\debug\emlcd.o
- .debug_macro   0x0000234a     0x1871 obj\debug\emlcd.o
- .debug_macro   0x00003bbb      0x378 obj\debug\emlcd.o
- .debug_macro   0x00003f33      0x43c obj\debug\emlcd.o
- .debug_macro   0x0000436f     0x1a98 obj\debug\emlcd.o
- .debug_macro   0x00005e07      0x622 obj\debug\emlcd.o
- .debug_macro   0x00006429     0x1a40 obj\debug\emlcd.o
- .debug_macro   0x00007e69     0x160e obj\debug\emlcd.o
- .debug_macro   0x00009477     0x1882 obj\debug\emlcd.o
- .debug_macro   0x0000acf9      0xed4 obj\debug\emlcd.o
- .debug_macro   0x0000bbcd      0x84e obj\debug\emlcd.o
- .debug_macro   0x0000c41b      0x4ff obj\debug\emlcd.o
- .debug_macro   0x0000c91a     0x1039 obj\debug\emlcd.o
- .debug_macro   0x0000d953      0xf0e obj\debug\emlcd.o
- .debug_macro   0x0000e861      0x7c4 obj\debug\emlcd.o
- .debug_macro   0x0000f025      0x6c3 obj\debug\emlcd.o
- .debug_macro   0x0000f6e8      0x338 obj\debug\emlcd.o
- .debug_macro   0x0000fa20      0x921 obj\debug\emlcd.o
- .debug_macro   0x00010341      0x37a obj\debug\emlcd.o
- .debug_macro   0x000106bb      0x1c2 obj\debug\emlcd.o
- .debug_macro   0x0001087d      0x1c8 obj\debug\emlcd.o
- .debug_macro   0x00010a45       0x40 obj\debug\emlcd.o
- .debug_macro   0x00010a85      0x1e0 obj\debug\emlcd.o
- .debug_macro   0x00010c65      0x142 obj\debug\emlcd.o
- .debug_macro   0x00010da7       0xfa obj\debug\emlcd.o
- .debug_macro   0x00010ea1      0x24a obj\debug\emlcd.o
- .debug_macro   0x000110eb     0x1864 obj\debug\emlcd.o
- .debug_macro   0x0001294f       0x27 obj\debug\emlcd.o
- .debug_macro   0x00012976      0x1de obj\debug\emlcd.o
- .debug_macro   0x00012b54      0x1de obj\debug\emlcd.o
- .debug_macro   0x00012d32       0x11 obj\debug\emlcd.o
- .debug_macro   0x00012d43      0x18f obj\debug\emlcd.o
- .debug_macro   0x00012ed2      0xb03 obj\debug\lcdtest.o
- .debug_macro   0x000139d5       0x3a obj\debug\lcdtest.o
- .debug_macro   0x00013a0f       0x52 obj\debug\lcdtest.o
- .debug_macro   0x00013a61       0x19 obj\debug\lcdtest.o
- .debug_macro   0x00013a7a      0x16d obj\debug\lcdtest.o
- .debug_macro   0x00013be7       0xac obj\debug\lcdtest.o
- .debug_macro   0x00013c93       0x10 obj\debug\lcdtest.o
- .debug_macro   0x00013ca3       0x97 obj\debug\lcdtest.o
- .debug_macro   0x00013d3a       0x1f obj\debug\lcdtest.o
- .debug_macro   0x00013d59       0xf5 obj\debug\lcdtest.o
- .debug_macro   0x00013e4e      0x214 obj\debug\lcdtest.o
- .debug_macro   0x00014062       0x10 obj\debug\lcdtest.o
- .debug_macro   0x00014072       0x12 obj\debug\lcdtest.o
- .debug_macro   0x00014084      0x172 obj\debug\lcdtest.o
- .debug_macro   0x000141f6      0x195 obj\debug\lcdtest.o
- .debug_macro   0x0001438b      0xa24 obj\debug\system_efm32g.o
- .debug_macro   0x00014daf      0xa55 obj\debug\rtcdrv.o
- .debug_macro   0x00015804      0x16c obj\debug\rtcdrv.o
- .debug_macro   0x00015970      0x16c obj\debug\rtcdrv.o
- .debug_macro   0x00015adc       0x10 obj\debug\rtcdrv.o
- .debug_macro   0x00015aec      0xb5f obj\debug\segmentlcd.o
- .debug_macro   0x0001664b       0x16 obj\debug\segmentlcd.o
- .debug_macro   0x00016661       0x10 obj\debug\segmentlcd.o
- .debug_macro   0x00016671       0x10 obj\debug\segmentlcd.o
- .debug_macro   0x00016681       0x22 obj\debug\segmentlcd.o
- .debug_macro   0x000166a3       0x97 obj\debug\segmentlcd.o
- .debug_macro   0x0001673a       0x16 obj\debug\segmentlcd.o
- .debug_macro   0x00016750      0x16c obj\debug\segmentlcd.o
- .debug_macro   0x000168bc       0x35 obj\debug\segmentlcd.o
- .debug_macro   0x000168f1       0x16 obj\debug\segmentlcd.o
- .debug_macro   0x00016907       0x16 obj\debug\segmentlcd.o
- .debug_macro   0x0001691d       0x23 obj\debug\segmentlcd.o
- .debug_macro   0x00016940      0x81f obj\debug\em_assert.o
- .debug_macro   0x0001715f      0xa64 obj\debug\em_cmu.o
- .debug_macro   0x00017bc3      0xa3c obj\debug\em_emu.o
- .debug_macro   0x000185ff      0xa46 obj\debug\em_gpio.o
- .debug_macro   0x00019045      0xa3a obj\debug\em_lcd.o
- .debug_macro   0x00019a7f      0xa3f obj\debug\em_rtc.o
- .debug_macro   0x0001a4be      0xa29 obj\debug\em_system.o
+.debug_macro    0x00000000    0x156b9
+ .debug_macro   0x00000000      0x250 obj\debug\emlcd.o
+ .debug_macro   0x00000250      0x80e obj\debug\emlcd.o
+ .debug_macro   0x00000a5e       0x3a obj\debug\emlcd.o
+ .debug_macro   0x00000a98       0x10 obj\debug\emlcd.o
+ .debug_macro   0x00000aa8       0x2e obj\debug\emlcd.o
+ .debug_macro   0x00000ad6       0xa2 obj\debug\emlcd.o
+ .debug_macro   0x00000b78      0x20e obj\debug\emlcd.o
+ .debug_macro   0x00000d86       0x22 obj\debug\emlcd.o
+ .debug_macro   0x00000da8      0x2ab obj\debug\emlcd.o
+ .debug_macro   0x00001053       0x3a obj\debug\emlcd.o
+ .debug_macro   0x0000108d       0x2d obj\debug\emlcd.o
+ .debug_macro   0x000010ba      0xbb1 obj\debug\emlcd.o
+ .debug_macro   0x00001c6b      0x470 obj\debug\emlcd.o
+ .debug_macro   0x000020db      0x142 obj\debug\emlcd.o
+ .debug_macro   0x0000221d      0x136 obj\debug\emlcd.o
+ .debug_macro   0x00002353     0x1871 obj\debug\emlcd.o
+ .debug_macro   0x00003bc4      0x378 obj\debug\emlcd.o
+ .debug_macro   0x00003f3c      0x43c obj\debug\emlcd.o
+ .debug_macro   0x00004378     0x1a98 obj\debug\emlcd.o
+ .debug_macro   0x00005e10      0x622 obj\debug\emlcd.o
+ .debug_macro   0x00006432     0x1a40 obj\debug\emlcd.o
+ .debug_macro   0x00007e72     0x160e obj\debug\emlcd.o
+ .debug_macro   0x00009480     0x1882 obj\debug\emlcd.o
+ .debug_macro   0x0000ad02      0xed4 obj\debug\emlcd.o
+ .debug_macro   0x0000bbd6      0x84e obj\debug\emlcd.o
+ .debug_macro   0x0000c424      0x4ff obj\debug\emlcd.o
+ .debug_macro   0x0000c923     0x1039 obj\debug\emlcd.o
+ .debug_macro   0x0000d95c      0xf0e obj\debug\emlcd.o
+ .debug_macro   0x0000e86a      0x7c4 obj\debug\emlcd.o
+ .debug_macro   0x0000f02e      0x6c3 obj\debug\emlcd.o
+ .debug_macro   0x0000f6f1      0x338 obj\debug\emlcd.o
+ .debug_macro   0x0000fa29      0x921 obj\debug\emlcd.o
+ .debug_macro   0x0001034a      0x37a obj\debug\emlcd.o
+ .debug_macro   0x000106c4      0x1c2 obj\debug\emlcd.o
+ .debug_macro   0x00010886      0x1c8 obj\debug\emlcd.o
+ .debug_macro   0x00010a4e       0x40 obj\debug\emlcd.o
+ .debug_macro   0x00010a8e      0x1e0 obj\debug\emlcd.o
+ .debug_macro   0x00010c6e      0x142 obj\debug\emlcd.o
+ .debug_macro   0x00010db0       0xfa obj\debug\emlcd.o
+ .debug_macro   0x00010eaa      0x24a obj\debug\emlcd.o
+ .debug_macro   0x000110f4     0x1864 obj\debug\emlcd.o
+ .debug_macro   0x00012958       0x27 obj\debug\emlcd.o
+ .debug_macro   0x0001297f      0x1de obj\debug\emlcd.o
+ .debug_macro   0x00012b5d      0x1de obj\debug\emlcd.o
+ .debug_macro   0x00012d3b       0x11 obj\debug\emlcd.o
+ .debug_macro   0x00012d4c      0x18f obj\debug\emlcd.o
+ .debug_macro   0x00012edb      0x2fe obj\debug\lcdtest.o
+ .debug_macro   0x000131d9       0x3a obj\debug\lcdtest.o
+ .debug_macro   0x00013213       0x52 obj\debug\lcdtest.o
+ .debug_macro   0x00013265       0x19 obj\debug\lcdtest.o
+ .debug_macro   0x0001327e      0x16d obj\debug\lcdtest.o
+ .debug_macro   0x000133eb       0xac obj\debug\lcdtest.o
+ .debug_macro   0x00013497       0x10 obj\debug\lcdtest.o
+ .debug_macro   0x000134a7       0x97 obj\debug\lcdtest.o
+ .debug_macro   0x0001353e       0x1f obj\debug\lcdtest.o
+ .debug_macro   0x0001355d       0xf5 obj\debug\lcdtest.o
+ .debug_macro   0x00013652      0x214 obj\debug\lcdtest.o
+ .debug_macro   0x00013866       0x10 obj\debug\lcdtest.o
+ .debug_macro   0x00013876       0x12 obj\debug\lcdtest.o
+ .debug_macro   0x00013888      0x172 obj\debug\lcdtest.o
+ .debug_macro   0x000139fa      0x195 obj\debug\lcdtest.o
+ .debug_macro   0x00013b8f      0x21f obj\debug\system_efm32g.o
+ .debug_macro   0x00013dae      0x250 obj\debug\rtcdrv.o
+ .debug_macro   0x00013ffe      0x16c obj\debug\rtcdrv.o
+ .debug_macro   0x0001416a      0x16c obj\debug\rtcdrv.o
+ .debug_macro   0x000142d6       0x10 obj\debug\rtcdrv.o
+ .debug_macro   0x000142e6      0x35a obj\debug\segmentlcd.o
+ .debug_macro   0x00014640       0x16 obj\debug\segmentlcd.o
+ .debug_macro   0x00014656       0x10 obj\debug\segmentlcd.o
+ .debug_macro   0x00014666       0x10 obj\debug\segmentlcd.o
+ .debug_macro   0x00014676       0x22 obj\debug\segmentlcd.o
+ .debug_macro   0x00014698       0x97 obj\debug\segmentlcd.o
+ .debug_macro   0x0001472f       0x16 obj\debug\segmentlcd.o
+ .debug_macro   0x00014745      0x16c obj\debug\segmentlcd.o
+ .debug_macro   0x000148b1       0x35 obj\debug\segmentlcd.o
+ .debug_macro   0x000148e6       0x16 obj\debug\segmentlcd.o
+ .debug_macro   0x000148fc       0x16 obj\debug\segmentlcd.o
+ .debug_macro   0x00014912       0x23 obj\debug\segmentlcd.o
+ .debug_macro   0x00014935       0x1a obj\debug\em_assert.o
+ .debug_macro   0x0001494f      0x25f obj\debug\em_cmu.o
+ .debug_macro   0x00014bae      0x237 obj\debug\em_emu.o
+ .debug_macro   0x00014de5      0x241 obj\debug\em_gpio.o
+ .debug_macro   0x00015026      0x235 obj\debug\em_lcd.o
+ .debug_macro   0x0001525b      0x23a obj\debug\em_rtc.o
+ .debug_macro   0x00015495      0x224 obj\debug\em_system.o
 
-.debug_line     0x00000000     0x4cd4
+.debug_line     0x00000000     0x4cde
  .debug_line    0x00000000      0x650 obj\debug\emlcd.o
- .debug_line    0x00000650      0x7c8 obj\debug\lcdtest.o
- .debug_line    0x00000e18       0x99 obj\debug\startup_efm32g.o
- .debug_line    0x00000eb1      0x5f1 obj\debug\system_efm32g.o
- .debug_line    0x000014a2      0x64b obj\debug\rtcdrv.o
- .debug_line    0x00001aed      0x887 obj\debug\segmentlcd.o
- .debug_line    0x00002374       0x6f obj\debug\em_assert.o
- .debug_line    0x000023e3      0x8fa obj\debug\em_cmu.o
- .debug_line    0x00002cdd      0x67c obj\debug\em_emu.o
- .debug_line    0x00003359      0x648 obj\debug\em_gpio.o
- .debug_line    0x000039a1      0x6f4 obj\debug\em_lcd.o
- .debug_line    0x00004095      0x64d obj\debug\em_rtc.o
- .debug_line    0x000046e2      0x5f2 obj\debug\em_system.o
+ .debug_line    0x00000650      0x7cd obj\debug\lcdtest.o
+ .debug_line    0x00000e1d       0x99 obj\debug\startup_efm32g.o
+ .debug_line    0x00000eb6      0x5f1 obj\debug\system_efm32g.o
+ .debug_line    0x000014a7      0x64b obj\debug\rtcdrv.o
+ .debug_line    0x00001af2      0x887 obj\debug\segmentlcd.o
+ .debug_line    0x00002379       0x6f obj\debug\em_assert.o
+ .debug_line    0x000023e8      0x8ff obj\debug\em_cmu.o
+ .debug_line    0x00002ce7      0x67c obj\debug\em_emu.o
+ .debug_line    0x00003363      0x648 obj\debug\em_gpio.o
+ .debug_line    0x000039ab      0x6f4 obj\debug\em_lcd.o
+ .debug_line    0x0000409f      0x64d obj\debug\em_rtc.o
+ .debug_line    0x000046ec      0x5f2 obj\debug\em_system.o
 
-.debug_str      0x00000000    0x779fc
- .debug_str     0x00000000    0x72e89 obj\debug\emlcd.o
-                              0x732fc (size before relaxing)
- .debug_str     0x00072e89     0x2afc obj\debug\lcdtest.o
-                              0x75e1c (size before relaxing)
- .debug_str     0x00075985      0x2c3 obj\debug\system_efm32g.o
-                              0x71994 (size before relaxing)
- .debug_str     0x00075c48      0x21c obj\debug\rtcdrv.o
-                              0x72550 (size before relaxing)
- .debug_str     0x00075e64     0x10b7 obj\debug\segmentlcd.o
-                              0x76a6c (size before relaxing)
- .debug_str     0x00076f1b       0x2b obj\debug\em_assert.o
-                               0x22eb (size before relaxing)
- .debug_str     0x00076f46      0x43c obj\debug\em_cmu.o
-                              0x72486 (size before relaxing)
- .debug_str     0x00077382       0xd8 obj\debug\em_emu.o
-                              0x71e40 (size before relaxing)
- .debug_str     0x0007745a      0x13a obj\debug\em_gpio.o
-                              0x71b21 (size before relaxing)
- .debug_str     0x00077594      0x2eb obj\debug\em_lcd.o
-                              0x71dd7 (size before relaxing)
- .debug_str     0x0007787f       0xbd obj\debug\em_rtc.o
-                              0x718a7 (size before relaxing)
- .debug_str     0x0007793c       0xc0 obj\debug\em_system.o
-                              0x71821 (size before relaxing)
+.debug_str      0x00000000    0x779e8
+ .debug_str     0x00000000    0x72e75 obj\debug\emlcd.o
+                              0x732e8 (size before relaxing)
+ .debug_str     0x00072e75     0x2afc obj\debug\lcdtest.o
+                              0x75e08 (size before relaxing)
+ .debug_str     0x00075971      0x2c3 obj\debug\system_efm32g.o
+                              0x71980 (size before relaxing)
+ .debug_str     0x00075c34      0x21c obj\debug\rtcdrv.o
+                              0x7253c (size before relaxing)
+ .debug_str     0x00075e50     0x10b7 obj\debug\segmentlcd.o
+                              0x76a58 (size before relaxing)
+ .debug_str     0x00076f07       0x2b obj\debug\em_assert.o
+                               0x22d7 (size before relaxing)
+ .debug_str     0x00076f32      0x43c obj\debug\em_cmu.o
+                              0x72472 (size before relaxing)
+ .debug_str     0x0007736e       0xd8 obj\debug\em_emu.o
+                              0x71e2c (size before relaxing)
+ .debug_str     0x00077446      0x13a obj\debug\em_gpio.o
+                              0x71b0d (size before relaxing)
+ .debug_str     0x00077580      0x2eb obj\debug\em_lcd.o
+                              0x71dc3 (size before relaxing)
+ .debug_str     0x0007786b       0xbd obj\debug\em_rtc.o
+                              0x71893 (size before relaxing)
+ .debug_str     0x00077928       0xc0 obj\debug\em_system.o
+                              0x7180d (size before relaxing)
 
 .debug_frame    0x00000000     0x10a0
  .debug_frame   0x00000000       0x4c obj\debug\emlcd.o

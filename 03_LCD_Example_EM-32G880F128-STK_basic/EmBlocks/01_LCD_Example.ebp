@@ -17,7 +17,6 @@
 					<Add option="-Wall" />
 					<Add option="-O0" />
 					<Add option="-g3" />
-					<Add option="-save-temps=obj" />
 					<Add option="-DEFM32G880F128" />
 					<Add option="-DDEBUG_EFM" />
 					<Add directory="..\..\drivers" />
@@ -38,10 +37,16 @@
 				<Option compiler="armgcc_eb" />
 				<Option projectDeviceOptionsRelation="0" />
 				<Compiler>
-					<Add option="-O2" />
-					<Add option="-g2" />
 					<Add option="-fdata-sections" />
 					<Add option="-ffunction-sections" />
+					<Add option="-O2" />
+					<Add option="-g2" />
+					<Add option="-DEFM32G880F128" />
+					<Add directory="..\..\drivers" />
+					<Add directory="..\..\CMSIS" />
+					<Add directory="..\..\EFM32G\Include" />
+					<Add directory="..\..\emlib\inc" />
+					<Add directory="..\..\01_LCD_Example_EFM32G880F128-STK" />
 				</Compiler>
 				<Assembler>
 					<Add option="-Wa,--no-warn" />
@@ -110,13 +115,13 @@
 			</code_completion>
 			<debugger>
 				<target_debugging_settings target="Debug" active_interface="Generic">
-					<debug_interface interface_id="Generic" ip_address="localhost" ip_port="4444" path="C:\Program Files (x86)\EmBlocks\2.00\share\EmBlocks\debuggers" executable="arm-gdb.exe" description="EFM32G880F128.svd" dont_start_server="false" backoff_time="2000" options="16" active_family="All">
+					<debug_interface interface_id="Generic" ip_address="localhost" ip_port="3333" path="$(PROJECT_DIR)/" executable="/openocd-0.8.0/bin-x64/openocd-x64-0.8.0.exe" description="EFM32G880F128.svd" dont_start_server="false" backoff_time="200" options="14" active_family="All">
 						<family_options family_id="All">
 							<option opt_id="ID_CMD_BEFORE" opt_value="" />
-							<option opt_id="ID_GDB_SERVER_CL" opt_value="" />
-							<option opt_id="ID_CMD_RESET" opt_value="monitor reset" />
-							<option opt_id="ID_SERVER_TERMINATE" opt_value="1" />
-							<option opt_id="ID_CMD_AFTER" opt_value="target remote localhost:3333&#x0A;monitor poll&#x0A;monitor reset halt&#x0A;program 01_LCD_Example_basic.bin" />
+							<option opt_id="ID_GDB_SERVER_CL" opt_value="-f interface/stlink-v2.cfg -f target/efm32_stlink.cfg" />
+							<option opt_id="ID_CMD_RESET" opt_value="monitor reset halt" />
+							<option opt_id="ID_SERVER_TERMINATE" opt_value="0" />
+							<option opt_id="ID_CMD_AFTER" opt_value="monitor reset halt&#x0A;monitor flash write_image erase bin/Debug/Basic_Example_EFM32G880F128-STK_EmBlocks.elf" />
 						</family_options>
 					</debug_interface>
 					<debug_interface interface_id="J-link" ip_address="localhost" ip_port="2331" path="%Software\SEGGER\J-Link:InstallPath%" executable="JLinkGDBServer.exe" description="EFM32G880F128.svd" dont_start_server="false" backoff_time="2000" options="4" active_family="Energy Micro">
@@ -146,8 +151,8 @@
 							<option opt_id="ID_RESET_CH" opt_value="halt" />
 							<option opt_id="ID_LOAD_PROGRAM" opt_value="0" />
 							<option opt_id="ID_SEMIHOST_CHECK" opt_value="0" />
-							<option opt_id="ID_ADD_COMMANDS" opt_value="" />
-							<option opt_id="ID_ADD_CMNDS" opt_value="reset" />
+							<option opt_id="ID_ADD_COMMANDS" opt_value="monitor reset halt&#x0A;monitor flash write_image erase ./bin/Debug/Basic_Example_EFM32G880F128-STK_EmBlocks.elf" />
+							<option opt_id="ID_ADD_CMNDS" opt_value="" />
 						</family_options>
 						<family_options family_id="Generic">
 							<option opt_id="ID_BOARD_CH" opt_value="" />
@@ -167,8 +172,16 @@
 					</debug_interface>
 					<debug_interface interface_id="ST-link" ip_address="" ip_port="" path="" executable="" description="" dont_start_server="false" backoff_time="" options="0" active_family="" />
 				</target_debugging_settings>
-				<target_debugging_settings target="Release" active_interface="J-link">
-					<debug_interface interface_id="Generic" ip_address="" ip_port="" path="" executable="" description="" dont_start_server="false" backoff_time="" options="0" active_family="" />
+				<target_debugging_settings target="Release" active_interface="Generic">
+					<debug_interface interface_id="Generic" ip_address="" ip_port="" path="" executable="" description="" dont_start_server="false" backoff_time="2000" options="0" active_family="All">
+						<family_options family_id="All">
+							<option opt_id="ID_CMD_BEFORE" opt_value="" />
+							<option opt_id="ID_GDB_SERVER_CL" opt_value="" />
+							<option opt_id="ID_CMD_RESET" opt_value="" />
+							<option opt_id="ID_SERVER_TERMINATE" opt_value="0" />
+							<option opt_id="ID_CMD_AFTER" opt_value="" />
+						</family_options>
+					</debug_interface>
 					<debug_interface interface_id="J-link" ip_address="localhost" ip_port="2331" path="%Software\SEGGER\J-Link:InstallPath%" executable="JLinkGDBServer.exe" description="" dont_start_server="false" backoff_time="2000" options="0" active_family="Energy Micro">
 						<family_options family_id="Energy Micro">
 							<option opt_id="ID_DEVICE" opt_value="EFM32G880F128" />

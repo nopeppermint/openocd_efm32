@@ -46,14 +46,14 @@
 ******************************************************************************/
 int main (void)
 {
-  CHIP_Init();
-	
+ CHIP_Init();
+
 	/* Enable LCD without voltage boost */
   SegmentLCD_Init(false);
 
   /* Run Energy Mode with LCD demo, see lcdtest.c */
   Test();
-	
+
 	/* Never going to reach this statement. Infinte loop in Test(). */
 	return 0;
 

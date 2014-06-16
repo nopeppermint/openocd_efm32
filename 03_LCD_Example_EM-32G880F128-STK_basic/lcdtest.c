@@ -211,7 +211,7 @@ void Test(void)
       }
       SegmentLCD_NumberOff();
 
-			SegmentLCD_Symbol(LCD_SYMBOL_OLIMEX, 1);
+      SegmentLCD_Symbol(LCD_SYMBOL_OLIMEX, 1);
       SegmentLCD_Write(" Gecko ");
       EM2Sleep(1000);
 
@@ -222,9 +222,13 @@ void Test(void)
 
       SegmentLCD_Write("OPENOCD");
       EM2Sleep(2000);
+      SegmentLCD_Write("GDB");
+      EM2Sleep(2000);
+      SegmentLCD_Write("DONE");
+      EM2Sleep(2000);
       SegmentLCD_Write("XXXXXXX");
       EM2Sleep(500);
-     // SegmentLCD_Write("-EFM32-");
+      SegmentLCD_Write("-EFM32-");
       EM2Sleep(2000);
 
       /* Various eye candy */
