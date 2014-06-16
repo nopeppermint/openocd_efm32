@@ -5,8 +5,9 @@ First steps with openocd and efm32 with STM32F4Discovery and Olimex EM-32G880F12
 You find an example with Emblocks or you could flash your device in a terminal.
 
 Discussion:
-http://community.silabs.com/t5/32-Bit-Discussion/Olimex-dev-board/m-p/123354
 http://www.emblocks.org/forum/viewtopic.php?f=24&t=438
+http://community.silabs.com/t5/32-Bit-Discussion/Program-Debug-EFM32-over-OpenOCD-with-an-ST-Link-V2/m-p/124380
+https://www.olimex.com/forum/index.php?topic=771.0
 _______________________________________________________
 Bug in openocd-0.8.0
 
